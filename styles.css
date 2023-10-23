@@ -1,0 +1,105 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+}
+
+.label {
+  border: 2px solid black;
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  display: inline-table;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.divider.large {
+  height: 1px;
+  background-color: #000;
+  margin: 10px 0;
+}
+
+#table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#table th, #table td {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabletitle {
+  background-color: #f2f2f2;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.note {
+  font-size: 0.7em;
+  margin: 10px 0;
+  text-align: center;
+}
+
+img.logo {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.qr-code-section {
+  display: flex;
+ 
+  justify-content: center;
+  align-items: flex-start;
+    gap: 20px; /* Adjust the gap between containers as needed */
+  margin-top: 20px;
+}
+
+.qr-code-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px; /* Adjust the maximum width as needed */
+}
+
+.qr-code-container img {
+  width: 150px; /* Adjust the width of the QR code images as needed */
+  height: 150px; /* Adjust the height of the QR code images as needed */
+  display: block;
+  margin: 0 auto;
+}
+.qr-code-container img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  /* margin: 0 auto; */
+}
+
+.caption {
+  margin-top: 0px; /* Adjust the margin as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+  color: #333; /* Adjust the caption color as needed */
+  text-align: center; /* Center the text within the caption */
+  max-width: 100%; /* Ensure the text does not exceed the container's width */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
